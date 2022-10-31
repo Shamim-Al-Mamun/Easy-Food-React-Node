@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Norican&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply text-heading px-10 py-4 bg-primary cursor-pointer rounded-lg text-xl capitalize font-bold hover:bg-primary_hover transition-all ease-in-out duration-100 hover:text-white;
+  }
+  .btn-tab {
+    @apply border-2 border-gray-100 py-2 px-10  text-xl rounded-full font-bold hover:border-primary transition-all duration-100;
+  }
+  .section-padding {
+    @apply py-24;
+  }
+  .product-image {
+    @apply relative after:absolute after:bg-primary after:w-full after:h-1/2 after:bottom-0 after:left-0 after:rounded-lg group-hover:after:h-full after:bg-opacity-50 group-hover:after:bg-opacity-100 after:transition-all after:ease-linear after:duration-200  cursor-pointer cart-img z-10;
+  }
+  .cart-icon {
+    @apply bg-primary text-2xl w-12 h-12 rounded-full flex items-center justify-center cursor-pointer hover:text-white;
+  }
+  .section-title {
+    @apply text-5xl font-bold mb-8;
+  }
+  .footer-icon {
+    @apply bg-white hover:bg-primary hover:text-white transition-all ease-in-out duration-150 p-3 text-black rounded-full text-lg;
+  }
+  .navbar-icon {
+    @apply p-3 cursor-pointer mx-1 hover:bg-primary hover:border-primary hover:text-white text-xl border-2 border-border rounded-[50%];
+  }
+  .form-group{
+    @apply flex items-center justify-between border border-gray-200 rounded-lg px-2;
+  }
+}
+
+@layer utilities {
+  .cart-img::after {
+    z-index: -1;
+  }
+  .text-shadow-lg {
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.8);
+  }
+  .shadow-custom {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .bg-light-gray {
+    background: #fff7e2;
+  }
+  .hide-scrollbar{
+    
+  }
+}
