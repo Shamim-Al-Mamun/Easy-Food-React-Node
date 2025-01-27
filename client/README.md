@@ -1,9 +1,9 @@
-# Starting with FoodU
+# Starting with Easy Food
 
-This project is [FoodU](https://food-u.netlify.app/).
-![FoodU](https://i.ibb.co/KWWX9CG/foodU2.png)
+This project is [Easy Food](https://easy-food.netlify.app/).
+![Easy Food](https://i.ibb.co/KWWX9CG/foodU2.png)
 
-### Some Feature FoodU
+### Some Feature Easy Food
 
 - Food You is a food Ecommerce site. Every user can order food after logging in. And he/she can save his favorite food on the Wishlist page.
 user can add any product review. and all products shown on the testimonials section. 
