@@ -1,7 +1,6 @@
 # Starting with Easy Food
 
 This project is [Easy Food](https://easy-food.netlify.app/).
-![Easy Food](https://i.ibb.co/KWWX9CG/foodU2.png)
 
 ### Some Feature Easy Food
 
